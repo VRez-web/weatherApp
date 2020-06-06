@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-wrap">
+      <header>
+        <form class="search-form">
+          <input
+            type="text"
+            autocomplete="off"
+            class="search-box"
+            placeholder="Поиск города ..."
+          />
+        </form>
+
+        <div class="modal">Вы ввели неправильно название города</div>
+      </header>
+      <main>
+        <section class="location">
+          <div class="city">Калинград</div>
+          <div class="date">Понедельник, 25 мая 2020</div>
+        </section>
+        <div class="current">
+          <div class="temp">15 <span>°c</span></div>
+          <div class="weather">Солнечно</div>
+          <div class="hi-low">13°c / 16°c</div>
+        </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
